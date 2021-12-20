@@ -1,0 +1,8 @@
+name = input('Type your full name: ').strip()
+print('Your name in upper letters is {}'.format(name.upper()))
+print('Your name in lower letters is {}'.format(name.lower()))
+#print('Your name has a total of {} letters'.format(len(name) - name.count(' ')))
+splitted = name.split()
+print('Your name has a total of {} letters'.format(len(''.join(splitted))))
+print('Your first name has a total of {} letters'.format(len(splitted[0])))
+#print('Your first name has a total of {} letters'.format(name.find(' ')))
